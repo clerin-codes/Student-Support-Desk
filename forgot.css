@@ -1,0 +1,205 @@
+/* Reset default styles */
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto' sans-serif;
+}
+
+.content{
+    width: 100%;
+    height: 120vh;
+    background-image: url(images/bg9.jpg);
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7));
+    background-position: center;
+    padding-left: 8%;
+    padding-right: 5%;
+    box-sizing: border-box;  
+}
+
+.navbar{
+    height: 12%;
+    display: flex;
+    align-items: center;
+}
+.navbar h1{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(10, 112, 138);
+    font-size: 30px;
+}
+nav ul li a:hover{
+    color: rgb(39, 99, 156);
+}
+
+.logo{
+    width: 80px;
+    cursor: pointer;
+}
+
+.menu-icon{
+    width: 20px;
+    cursor: pointer;
+    margin-left: 50px;
+}
+
+nav{
+    flex: 1;
+    text-align: right;
+}
+
+nav ul li{
+    list-style: none;
+    display: inline-block;
+    margin-left: 60px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: #fff;
+    size: 13px;
+}
+nav ul li a active{
+    font-weight: 800;
+}
+
+.row{
+    display: flex;
+    height: 88%;
+    align-items: center;
+}
+.col{
+
+    flex-basis: 50%;
+}
+
+h1{
+    color: #ffffff;
+    font-family:'Times New Roman', Times, serif;
+    font-size: 95px;
+}
+
+p{
+    color: #000000;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 15px;
+    line-height: 15px;
+}
+
+.btn{
+    margin-left: 5%;
+}
+.log{
+    width: 100px;
+    height: 30px;
+    color: #ffffff;
+    font-size: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 10px 0;
+    background: #000000;
+    border: 0;
+    border-radius: 20px;
+    outline: none;
+    transition: 0.5s;
+}
+.up{
+    width: 100px;
+    height: 30px;
+    color: #ffffff;
+    font-size: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 10px 0;
+    background: #000000;
+    border: 0;
+    border-radius: 20px;
+    outline: none;
+    transition: 0.5s;
+}
+.log:hover{
+    transform: translateY(10px);
+}
+.up:hover{
+    transform: translateY(-10px);
+}
+.formreg h1{
+    font-size: 40px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.formreg{
+    text-align: center;
+    margin-top: 50%;
+    width: 500px;
+    box-shadow: 0 0 40px 0 rgba(0, 0, 0, 3);
+    padding: 50px;
+    margin: 8% auto 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    border-top-left-radius: 80px;
+    border-bottom-right-radius: 50px;
+    background-image: linear-gradient(rgb(2, 46, 54), rgb(247, 247, 247));
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: center;
+
+}
+
+.formreg h1{
+    font-size: 50px;
+    text-align: center;
+    color: #000000;
+    margin-bottom: 30px;
+}
+
+.inputbox{
+    border-radius: 20px;
+    padding: 10px;
+    margin: 10px 0;
+    width: 100%;
+    background-color: transparent;
+    border: 2px solid #0e0e0e;
+    outline: none;
+    transition: 0.5s;
+
+}
+.inputbox:hover{
+    transform: translateY(-10px);
+}
+
+button{
+    color: #0e0e0e;
+    width: 60%;
+    padding: 10px;
+    border-radius: 20px;
+    font-size: 15px;
+    margin: 10px 0;
+    border: none;
+    outline: none;
+    background-color: transparent;
+    border: 2px solid white;
+    
+}
+
+.signupbutton{
+    background-color: #021a41;
+
+}
+.googlebutton{
+    background-color: #02060e;
+}
+a{
+    text-decoration: none;
+}
+hr{
+    margin-top: 20px;
+    width: 80;
+}
+.or{
+    background: #4b4b4b;
+    width: 30px;
+    margin: -10px auto 10px;
+}
+
+.txt{
+    font-size: 20px;
+    font-family:'Times New Roman', Times, serif;
+    font-weight:bold;
+}
